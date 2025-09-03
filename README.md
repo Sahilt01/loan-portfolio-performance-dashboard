@@ -29,15 +29,15 @@ Banks need to keep track of their lending activities to ensure portfolio health 
 
 **🔹 Features & Insights**
 
-📌 86% loans were classified as Good Loans; only 14% were Bad Loans
-📌 36-month loans dominate (73% of total applications)
-📌 Debt consolidation & credit card loans are the most common purposes
-📌 Borrowers with 10+ years of work experience applied most frequently
-📌 Regional analysis highlights state-level lending hotspots
+- 📌 86% loans were classified as Good Loans; only 14% were Bad Loans
+- 📌 36-month loans dominate (73% of total applications)
+- 📌 Debt consolidation & credit card loans are the most common purposes
+- 📌 Borrowers with 10+ years of work experience applied most frequently
+- 📌 Regional analysis highlights state-level lending hotspots
 
 **🔹 Dataset**
 
-Source: Public dataset from Kaggle(sourced from [Kaggle](https://www.kaggle.com/))
+Source: Public dataset from ([Kaggle](https://www.kaggle.com/))
 
 **🔹 Files in Repository**
 
