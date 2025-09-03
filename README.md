@@ -76,4 +76,5 @@ Source: Public dataset from [Kaggle](https://www.kaggle.com/)
 💡 **Business Relevance:**  
 This project simulates the type of **loan portfolio analysis** a bank would run to monitor performance and manage risk — a valuable skillset for **Financial Analysts, BI Analysts, and Risk Analysts**.  
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
