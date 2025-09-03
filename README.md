@@ -1,66 +1,79 @@
-## 📊 Bank Loan Report – SQL + Power BI Project
-**🔹 Project Overview**
+# 📊 Loan Portfolio Performance Dashboard (SQL + Power BI)
 
-This project focuses on analyzing a bank loan portfolio using SQL for data analysis and Power BI for visualization. The goal is to evaluate how loans are being issued, repaid, and performing over time. By monitoring key loan metrics, the dashboards help identify patterns in borrower behavior, portfolio risks, and overall lending performance.
+## 🔹 Project Overview  
+This project analyzes a **bank loan portfolio** using **SQL Server 2022** for data preparation and **Power BI** for interactive dashboards.  
 
-The workflow for this project was:
-Kaggle Dataset → SQL Queries → Power BI Dashboards → Business Insights
+The goal: evaluate how loans are **issued, repaid, and performing over time**. By tracking portfolio KPIs, banks can identify borrower patterns, monitor risks, and make **data-driven lending decisions**.  
 
-**🔹 Problem Statement**
+**Workflow:**  
+`Kaggle Dataset → SQL Queries → Power BI Dashboards → Business Insights`
 
-Banks need to keep track of their lending activities to ensure portfolio health and make data-driven decisions. This project addresses that requirement by building an interactive Bank Loan Report that answers:
+---
 
-  1. How many loan applications have been received in total, and how do they change Month-to-Date (MTD) and Month-over-Month (MoM)?
-  2. What is the total funded amount vs. the total amount received (repayments)?
-  3. What are the average interest rates and average debt-to-income ratios (DTI) across borrowers?
-  4. What proportion of loans are considered Good Loans (fully paid or current) versus Bad Loans (charged-off)?
-  5. How do lending metrics vary by:
-     *Time (monthly trends)
-     *Region (state-level distribution)
-     *Loan terms (36 months vs. 60 months)
-     *Employment length of borrowers
-     *Loan purpose categories (e.g., debt consolidation, credit card)
-     *Home ownership type (own, rent, mortgage)
+## 🔹 Problem Statement  
+Banks must track lending activities to ensure **portfolio health** and **minimize risk exposure**.  
+This project answers key business questions, including:  
 
-**The result is a 3-dashboard solution:**
-  1. Summary Dashboard → KPIs and Good vs. Bad loan breakdown
-  2. Overview Dashboard → Trends and distribution analysis
-  3. Details Dashboard → Complete loan-level data with filters
+1. 📈 How many loan applications were received in total, MTD, and MoM?  
+2. 💰 What is the **total funded amount** vs. the **total repayment received**?  
+3. 📊 What are the **average interest rates** and **debt-to-income ratios (DTI)**?  
+4. ✅ What % of loans are **Good Loans** (Fully Paid / Current) vs ❌ **Bad Loans** (Charged-Off)?  
+5. 🌎 How do lending metrics vary by:  
+   - **Time** → Monthly trends  
+   - **Region** → State distribution  
+   - **Loan Terms** → 36 vs 60 months  
+   - **Employment Length** → Borrower stability  
+   - **Purpose** → Debt consolidation, credit card, education, etc.  
+   - **Home Ownership** → Own, rent, mortgage  
 
-**🔹 Features & Insights**
+**Deliverables:** a **3-page dashboard solution**  
+1. **Summary Dashboard** → Portfolio KPIs + Good vs Bad Loan breakdown  
+2. **Overview Dashboard** → Trends & distribution analysis  
+3. **Details Dashboard** → Loan-level drill-down with interactive filters  
 
-- 📌 86% loans were classified as Good Loans; only 14% were Bad Loans
-- 📌 36-month loans dominate (73% of total applications)
-- 📌 Debt consolidation & credit card loans are the most common purposes
-- 📌 Borrowers with 10+ years of work experience applied most frequently
-- 📌 Regional analysis highlights state-level lending hotspots
+---
 
-**🔹 Dataset**
+## 🔹 Key Insights  
+- ✅ **86% of loans** are Good Loans; only **14% defaulted**  
+- 🕒 **36-month loans dominate** → 73% of total applications  
+- 💳 Top purposes: **Debt Consolidation** & **Credit Card**  
+- 👔 Borrowers with **10+ years of work experience** are most frequent applicants  
+- 🌎 **Regional hotspots** identified for lending activity  
 
-Source: Public dataset from ([Kaggle](https://www.kaggle.com/))
+---
 
-**🔹 Files in Repository**
+## 🔹 Dataset  
+Source: Public dataset from [Kaggle](https://www.kaggle.com/)  
 
-  1. sql/BankLoan.sql → SQL queries for KPIs & insights
-  2. dashboard/BankReport.pbix → Power BI interactive dashboard
-  3. dashboard/BankReport.pdf → Exported report for quick viewing
-  4. dashboard/screenshots/ → Dashboard preview images
-  5. data/bank_loan_dataset.csv → Dataset used for analysis
+---
 
-**🔹 Tools & Skills Used**
+## 🔹 Repository Structure  
+- SQL/ → Documented SQL queries for KPIs & insights
+- PowerBI/ → Power BI interactive dashboard (.pbix)
+- Images/ → Dashboard screenshots (Summary, Overview, Details)
+- Reports/ → Exported PDF (all dashboards)
+- data/ → Dataset used for analysis (.csv)
+- README.md → Project documentation (this file)
 
-1. SQL Server – Data preparation and KPI generation
-2. Power BI – Dashboard design and visualization
-3. Data Analysis – Portfolio monitoring, KPI tracking, business insights
+---
 
-**🔹 How to Run the Project**
-1. Load dataset into SQL Server as bank_loan_data.
-2. Run the queries from BankLoan.sql to generate metrics.
-3. Import the dataset into Power BI.
-4. Build or open the dashboard file (BankReport.pbix) to explore insights.
-5. Load dataset into SQL Server as bank_loan_data.
-6. Run the queries from BankLoan.sql to generate metrics.
+## 🔹 Tools & Skills Used  
+- **SQL Server 2022** → Data cleaning, transformations, KPI calculations  
+- **Power BI** → Dashboard design, conditional formatting, slicer panel  
+- **Data Analysis** → Loan portfolio monitoring, borrower segmentation, risk insights  
 
-Import the dataset into Power BI.
+---
 
-Build or open the dashboard file (BankReport.pbix) to explore insights.
+## 🔹 How to Run the Project  
+1. Load dataset into SQL Server → table name: `bank_loan_data`  
+2. Run queries from `SQL/BankLoan.sql` → generate KPIs & summary tables  
+3. Open Power BI Desktop → connect to dataset or open `Loan_Portfolio_Performance.pbix`  
+4. Explore **3 dashboards**: Summary · Overview · Details  
+5. (Optional) View quick previews in `/Images/` or the exported PDF  
+
+---
+
+💡 **Business Relevance:**  
+This project simulates the type of **loan portfolio analysis** a bank would run to monitor performance and manage risk — a valuable skillset for **Financial Analysts, BI Analysts, and Risk Analysts**.  
+
+
